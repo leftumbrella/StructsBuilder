@@ -164,4 +164,4 @@ This project is licensed under the [Apache License 2.0](LICENSE).
 
 ---
 
-*Created by Z.S. for the GTTC project, November 2021.*
+*Created by Sway, November 2021.*

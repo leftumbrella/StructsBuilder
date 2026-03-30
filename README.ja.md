@@ -163,5 +163,3 @@ StructsBuilder/
 本プロジェクトは [Apache License 2.0](LICENSE) の下で公開されています。
 
 ---
-
-*Z.S. により 2021年11月に GTTC プロジェクト向けに作成。*
