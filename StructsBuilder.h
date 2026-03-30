@@ -4,13 +4,15 @@
 /*
 *	Sway Create this file. at November 28, 2021.
 *	-----------------------------------------------------------------------------------------
-*  	| ������ܹ��������κλ���������ɣ������κ��ֽڶ��뷽ʽ������ṹ�岢ʹ���ԡ�void*����ʽ���أ�			|
-*	| �ˡ�void*��ָ���ܹ�ǿ��ת��Ϊָ����ʵ�ṹ���ָ�룬���ܶ�ȡ����ʵ���ݡ�							|
+*  	| This class can build struct fields of any type at any position, with any byte alignment,|
+*	| and return the struct as a void*. The void* pointer can be reinterpret_cast to a pointer |
+*	| of the actual struct type to read the real data.                                         |
 *   -----------------------------------------------------------------------------------------
-*  	| ���಻�Ƕ��̰߳�ȫ�ģ�����ζ�������Ҫ�ڶ��̳߳�����ʹ�ã�����뱣֤���ȡ������ֲ���Ԥ֪�Ĵ���	 	|
-*	| push_back/push_front/insert �����ṩ�����ڴ��ݽṹ���е���������� 							|
-*	| operator<< �����޷������д����������ͣ������������ͻ������� 								|
-*   | �����޷������ṹ���к�����Ҫ�����乹�캯������Ľṹ��  										|
+*  	| This class is NOT thread-safe, meaning if you need to use it in a multi-threaded         |
+*	| context, you must ensure synchronization to avoid unpredictable errors.                   |
+*	| push_back/push_front/insert overloads are provided for passing arrays of struct fields.   |
+*	| operator<< cannot be used with array types, otherwise it will cause a compilation error.  |
+*   | Cannot build structs that contain members requiring non-trivial constructors.             |
 *   -----------------------------------------------------------------------------------------
 */
 
