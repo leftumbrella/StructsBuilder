@@ -1,5 +1,7 @@
 # StructsBuilder
 
+🌐 **English** | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md)
+
 A lightweight, header-only C++ library for **dynamically building struct memory layouts at runtime**. Push fields of arbitrary types, and read back a contiguous memory block (`void*`) that mirrors a real C/C++ struct — complete with proper byte alignment.
 
 ---
@@ -148,7 +150,10 @@ Total: 16 bytes
 StructsBuilder/
 ├── StructsBuilder.h   # The entire library (header-only)
 ├── LICENSE            # Apache License 2.0
-└── README.md          # This file
+├── README.md          # English documentation
+├── README.zh-CN.md    # 简体中文文档
+├── README.zh-TW.md    # 繁體中文文件
+└── README.ja.md       # 日本語ドキュメント
 ```
 
 ---

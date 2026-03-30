@@ -1,8 +1,8 @@
-#ifndef LFTUBRLA_GTTC_STRUCTSBUILDER_STRUCTSBUILDER_
-#define LFTUBRLA_GTTC_STRUCTSBUILDER_STRUCTSBUILDER_
+#ifndef LFTUBRLA_SWAY_STRUCTSBUILDER_STRUCTSBUILDER_
+#define LFTUBRLA_SWAY_STRUCTSBUILDER_STRUCTSBUILDER_
 
 /*
-*	Z.S. Create this file for GTTC. at November 28, 2021.
+*	Sway Create this file. at November 28, 2021.
 *	-----------------------------------------------------------------------------------------
 *  	| 这个类能够构建以任何基础类型组成，具有任何字节对齐方式的任意结构体并使其以“void*”形式返回，			|
 *	| 此“void*”指针能够强制转换为指向真实结构体的指针，用能读取其真实数据。							|
