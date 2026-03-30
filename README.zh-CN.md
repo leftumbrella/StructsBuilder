@@ -158,10 +158,4 @@ StructsBuilder/
 
 ---
 
-## 📄 许可证
-
-本项目基于 [Apache License 2.0](LICENSE) 开源。
-
----
-
 *由 Sway 于 2021 年 11 月 创建。*

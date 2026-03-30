@@ -155,11 +155,3 @@ StructsBuilder/
 ├── README.zh-TW.md    # 繁體中文ドキュメント
 └── README.ja.md       # 日本語ドキュメント（本ファイル）
 ```
-
----
-
-## 📄 ライセンス
-
-本プロジェクトは [Apache License 2.0](LICENSE) の下で公開されています。
-
----

@@ -158,10 +158,4 @@ StructsBuilder/
 
 ---
 
-## 📄 授權條款
-
-本專案基於 [Apache License 2.0](LICENSE) 開源。
-
----
-
 *由 Z.S. 於 2021 年 11 月建立。*

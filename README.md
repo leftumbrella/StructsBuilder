@@ -158,10 +158,4 @@ StructsBuilder/
 
 ---
 
-## 📄 License
-
-This project is licensed under the [Apache License 2.0](LICENSE).
-
----
-
 *Created by Sway, November 2021.*
